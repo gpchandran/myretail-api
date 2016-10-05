@@ -8,7 +8,7 @@ Run the following commands in from commnd prompt
 
     ./mvnw
     
-
+Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## Building for production
 
@@ -23,7 +23,7 @@ To ensure everything worked, run:
 
     java -jar target/*.war
 
-Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
+
 
 ## Testing
 
