@@ -1,14 +1,14 @@
-# myretailapi
+# MyRetail-API
 
 MyRetail API and Beyond!
 
 ## Development
-
-Run the following commands in from commnd prompt
+Download and install MySQL DB locally and update URL/user/password stuffs here at application-dev.yml. 
+Run the following commands in from command prompt
 
     ./mvnw
     
-
+Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## Building for production
 
@@ -22,20 +22,6 @@ these new files.
 To ensure everything worked, run:
 
     java -jar target/*.war
-
-Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
-
-## Testing
-
-Unit tests are run by [Karma][] and written with [Jasmine][]. They're located in `src/test/javascript/` and can be run with:
-
-    gulp test
-
-
-
-Performance tests are run by [Gatling]() and written in Scala. They're located in `src/test/gatling` and can be run with:
-
-    ./mvnw gatling:execute
 
     
 ## Continuous Integration
