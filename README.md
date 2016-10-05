@@ -22,7 +22,6 @@ these new files.
 To ensure everything worked, run:
 
     java -jar target/*.war
-
     
 ## Continuous Integration
 
