@@ -3,12 +3,13 @@
 MyRetail API and Beyond!
 
 ## Development
+Clone and check-out [https://github.com/gpchandran/myretail-api.git](https://github.com/gpchandran/myretail-api.git)
 Download and install MySQL DB locally and update URL/user/password stuffs here at application-dev.yml. 
 Run the following commands in from command prompt
 
     ./mvnw
     
-Then navigate to [http://localhost:8080](http://localhost:8080) in your browser.
+Then navigate to [myRetail Products API Documentation](http://localhost:8080/swagger-ui/index.html) in your browser.
 
 ## Building for production
 
